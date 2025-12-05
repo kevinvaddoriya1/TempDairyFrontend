@@ -3,7 +3,7 @@ import { secureStorage } from '../utils/encryption';
 
 // Create axios instance
 const api = axios.create({
-  baseURL: 'http://91.108.105.15:8000/api',
+  baseURL: 'https://tempdairybackend.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },

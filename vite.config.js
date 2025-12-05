@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://91.108.105.15:8000/api',
+        target: 'https://tempdairybackend.onrender.com/api',
         changeOrigin: true,
       },
     },
